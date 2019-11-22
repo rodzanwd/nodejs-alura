@@ -7,7 +7,8 @@
     "bootstrap": "^4.3.1",
     "express": "^4.16.3",
     "jquery": "^3.4.1",
-    "marko": "4.13.4-1"
+    "marko": "4.13.4-1",
+    "sqlite3": "4.0.2"
   },
   "devDependencies": {},
   "scripts": {
