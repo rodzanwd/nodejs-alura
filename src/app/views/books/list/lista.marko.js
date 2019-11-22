@@ -21,17 +21,19 @@ function render(input, out, __component, component, state) {
 
   component_globals_tag({}, out);
 
-  out.w("<div class=\"container\"><div class=\"row\"><h1>Listagem de livros</h1> </div><div class=\"row\"><table class=\"list-group col-12\"><tr class=\"list-group list-group-horizontal\"><td class=\"col-2 list-group-item list-group-item-secondary\">ID</td><td class=\"col-10 list-group-item list-group-item-secondary\">Título</td></tr>");
+  out.w("<div class=\"container\"><div class=\"row\"><h1>Listagem de livros</h1> </div><div class=\"row\"><table class=\"list-group col-12\"><tr class=\"list-group list-group-horizontal\"><td class=\"col-2 list-group-item list-group-item-secondary\">ID</td><td class=\"col-5 list-group-item list-group-item-secondary\">Título</td><td class=\"col-5 list-group-item list-group-item-secondary\">Série/Saga</td></tr>");
 
-  var for__16 = 0;
+  var for__17 = 0;
 
   marko_forEach(data.livros, function(livro) {
-    var keyscope__17 = "[" + ((for__16++) + "]");
+    var keyscope__18 = "[" + ((for__17++) + "]");
 
     out.w("<tr class=\"list-group list-group-horizontal\"><td class=\"col-2 list-group-item\">" +
       marko_escapeXml(livro.id) +
-      "</td><td class=\"col-10 list-group-item\">" +
+      "</td><td class=\"col-5 list-group-item\">" +
       marko_escapeXml(livro.titulo) +
+      "</td><td class=\"col-5 list-group-item\">" +
+      marko_escapeXml(livro.descricao) +
       "</td></tr>");
   });
 
@@ -39,7 +41,7 @@ function render(input, out, __component, component, state) {
 
   init_components_tag({}, out);
 
-  await_reorderer_tag({}, out, __component, "21");
+  await_reorderer_tag({}, out, __component, "23");
 
   out.w("</body></html>");
 }

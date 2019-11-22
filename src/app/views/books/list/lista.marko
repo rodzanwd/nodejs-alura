@@ -16,11 +16,13 @@
             <table class="list-group col-12">
                 <tr class="list-group list-group-horizontal">
                     <td class="col-2 list-group-item list-group-item-secondary">ID</td>
-                    <td class="col-10 list-group-item list-group-item-secondary">Título</td>
+                    <td class="col-5 list-group-item list-group-item-secondary">Título</td>
+                    <td class="col-5 list-group-item list-group-item-secondary">Série/Saga</td>
                 </tr>
                 <tr for (livro in data.livros) class="list-group list-group-horizontal">
                     <td class="col-2 list-group-item">${livro.id}</td>
-                    <td class="col-10 list-group-item">${livro.titulo}</td>
+                    <td class="col-5 list-group-item">${livro.titulo}</td>
+                    <td class="col-5 list-group-item">${livro.descricao}</td>
                 </tr>
             </table> 
         </div>
