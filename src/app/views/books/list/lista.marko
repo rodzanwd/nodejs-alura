@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Listagem de livros</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Listagem de livros</h1> 
+        </div>
+        <div class="row">
+            <table class="list-group col-12">
+                <tr class="list-group list-group-horizontal">
+                    <td class="col-2 list-group-item list-group-item-secondary">ID</td>
+                    <td class="col-10 list-group-item list-group-item-secondary">Título</td>
+                </tr>
+                <tr for (livro in data.livros) class="list-group list-group-horizontal">
+                    <td class="col-2 list-group-item">${livro.id}</td>
+                    <td class="col-10 list-group-item">${livro.titulo}</td>
+                </tr>
+            </table> 
+        </div>
+    </div>
+</body>
+</html>

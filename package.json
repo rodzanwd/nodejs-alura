@@ -1,0 +1,33 @@
+{
+  "name": "cursonodealura",
+  "version": "1.0.0",
+  "description": "Casa do Código",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.3",
+    "jquery": "^3.4.1",
+    "marko": "4.13.4-1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js --ignore *.marko.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodzanwd/nodejs-alura.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "Rodrigo Zandonadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodzanwd/nodejs-alura/issues"
+  },
+  "homepage": "https://github.com/rodzanwd/nodejs-alura#readme"
+}
