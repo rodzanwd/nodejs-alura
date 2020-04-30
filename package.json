@@ -8,7 +8,7 @@
     "bootstrap": "^4.3.1",
     "connect-multiparty": "^2.2.0",
     "express": "^4.16.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "marko": "4.13.4-1",
     "sqlite3": "4.0.2"
   },
