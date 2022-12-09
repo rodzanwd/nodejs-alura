@@ -7,7 +7,7 @@
     "body-parser": "1.18.3",
     "bootstrap": "^4.3.1",
     "connect-multiparty": "^2.2.0",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "jquery": "^3.4.1",
     "marko": "4.13.4-1",
     "sqlite3": "4.0.2"
